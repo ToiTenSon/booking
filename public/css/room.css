@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    color: #ff5a5f;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #333;
+    font-size: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.image-gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.03);
+}
+.flex-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.room-info {
+    flex: 2;
+}
+
+.booking-box {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.booking-field {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-field input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#nights {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.booking-btn {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.booking-btn:hover {
+    background-color: #e04848;
+}

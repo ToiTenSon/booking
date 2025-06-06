@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+}
+/* Panel trái chứa 3 cột ảnh */
+.left-panel {
+    display: flex;
+    gap: 10px;
+    width: 950px; /* 3 cột x 300px */
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+.swiper-container {
+    width: 300px;
+    height: 100vh;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    background: #fff;
+    flex-shrink: 0;
+}
+.swiper-slide {
+  margin-bottom: 20px; /* Khoảng cách giữa các ảnh */
+}
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+    }
+  
+    /* Panel phải chứa form đăng nhập */
+.right-panel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+    padding: 40px;
+}
+    /* style form đăng nhập */
+.login-box {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 30px 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.login-box h1.logo-name {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+.login-box h3 {
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.login-box p {
+    margin-bottom: 25px;
+    color: #666;
+}
+.login-box .form-control {
+    margin-bottom: 15px;
+    height: 45px;
+    font-size: 16px;
+}
+.login-box button.btn-primary {
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    }
+    .login-box a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+.login-box a:hover {
+    text-decoration: underline;
+}
