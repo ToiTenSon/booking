@@ -1,34 +1,5 @@
 <?php
 
-// namespace App\Http\Controllers;
-
-// use Illuminate\Http\Request;
-// use Illuminate\Support\Facades\Auth;
-
-// class LoginController extends Controller
-// {
-
-// public function login(Request $request)
-// {
-//     $credentials = $request->validate([
-//         'email' => ['required', 'email'],
-//         'password' => ['required'],
-//     ]);
-
-//     if (!Auth::attempt($credentials)) {
-//         return back()->withErrors([
-//             'login' => 'Email hoặc mật khẩu không đúng.',
-//         ])->withInput();
-//     }
-
-//     $request->session()->regenerate();
-
-//     return redirect()->intended('dashboard');
-// }
-
-// }
-
-
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
